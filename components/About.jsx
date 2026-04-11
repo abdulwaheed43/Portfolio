@@ -131,11 +131,11 @@ const About = () => {
   return (
     <div
       id='about'
-      className='w-full px-6 sm:px-10 lg:px-[12%] py-20 scroll-mt-20'
+      className='w-full px-6 sm:px-10 lg:px-[12%] md:py-20  scroll-mt-20 flex flex-col'
     >
 
       {/* Heading */}
-      <h2 className='text-center text-4xl sm:text-5xl font-bold font-Ovo '>
+      <h2 className='text-center text-4xl sm:text-5xl font-bold font-Ovo'>
         About Me
       </h2>
 
@@ -150,7 +150,7 @@ const About = () => {
             alt="user"
             width={320}
             height={320}
-            className='relative rounded-3xl object-cover -mt-72 border-4 border-white dark:border-gray-800 shadow-xl'
+            className='relative rounded-3xl object-cover mt-0 lg:-mt-72 border-4 border-white dark:border-gray-800 shadow-xl'
           />
         </div>
 
@@ -158,7 +158,14 @@ const About = () => {
         <div className='flex-1 text-center lg:text-left'>
 
           <p className='mb-10 max-w-2xl mx-auto lg:mx-0 dark:text-gray-300 text-sm sm:text-base leading-7'>
-            My name is Abdul Waheed, and I am an undergraduate Computer Science student at Iqra University, currently in my second-to-last semester. With a strong academic record and extensive hands-on experience in software development, I am deeply passionate about building innovative solutions in Web Development, AI, and Software Engineering. Beyond the classroom, I am an active member of the IEEE Society. My involvement in various social and technical responsibilities has allowed me to sharpen my leadership and time-management skills. My academic journey began in Moro, where I completed my Matriculation at Vision Public School (2020) and my Intermediate at Government Mehran College (2022), achieving A-grades in both. Although I was initially offered a seat in Electrical Engineering at FAST University, I chose to pivot toward my true interest in Computer Science at Iqra University to master the world of AI and modern web technologies.
+            My name is Abdul Waheed, and I am an undergraduate Computer Science student at Iqra University, 
+            currently in my second-to-last semester. With a strong academic record and extensive hands-on 
+            experience in software development, I am deeply passionate about building innovative solutions 
+            in Web Development, AI, and Software Engineering. Beyond the classroom, I am an active member of 
+            the IEEE Society. My involvement in various social and technical responsibilities has allowed me 
+            to sharpen my leadership and time-management skills. My academic journey began in Moro, where I 
+            completed my Matriculation at Vision Public School (2020) and my Intermediate at Government Mehran College (2022), achieving A-grades in both. Although I was initially offered a seat in Electrical Engineering at FAST University, I chose to pivot toward my true interest in Computer Science at 
+            Iqra University to master the world of AI and modern web technologies.
           </p>
 
           {/* Info Cards */}

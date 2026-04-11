@@ -3,6 +3,7 @@ import { serviceData } from '@/public/assets/assets';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import React from 'react';
 import { useTheme } from 'next-themes';
+import Image from 'next/image';
 
 const Services = () => {
   const {theme} = useTheme();
@@ -42,16 +43,19 @@ const Services = () => {
           >
 
             {/* Gradient Hover Effect */}
-            <div className='absolute cursor-pointer rounded-2xl inset-0 bg-gradient-to-r from-gray-400 to-white-500 opacity-0 group-hover:opacity-15 transition duration-300'></div>
+            <div className='absolute cursor-pointer rounded-2xl inset-0 bg-gradient-to-r from-gray-400 to-white-500 opacity-0 group-hover:opacity-15 transition duration-300 '></div>
 
             {/* Icon */}
-            <div className='w-12 h-12 flex items-center justify-center rounded-full 
-            bg-gradient-to-r from-black-500 to-gray-400 text-white text-lg mb-4'>
-              <FontAwesomeIcon icon={icon} />
-            </div>
+            <Image
+            src={icon}
+            alt='icon'
+            width={50}
+              height={50}
+            className='object-cover object-center'
+            />
 
             {/* Title */}
-            <h3 className='text-lg font-semibold  mb-2'>
+            <h3 className='text-lg font-semibold  mb-2 pt-3'>
               {title}
             </h3>
 

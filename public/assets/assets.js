@@ -40,6 +40,10 @@ import workImg2 from "./work-2.png";
 import workImg3 from "./work-3.png";
 import workImg4 from "./work-4.png";
 import database_icon from "./database-icon.png"
+import dbms from "./database-management.png";
+import Github from "./github.png";
+import backend from "./backend.png";
+import frontend from "./frontend.png"; 
 
 
 
@@ -84,7 +88,8 @@ export const assets = {
     right_arrow,
     send_icon,
     right_arrow_bold,
-    right_arrow_bold_dark
+    right_arrow_bold_dark,
+    frontend,backend,dbms,Github
 };
 
 export const workData = [
@@ -122,26 +127,26 @@ export const workData = [
 
 export const serviceData = [
 {
-  icon: assets.web_icon,
+  icon: assets.frontend,
   title: 'Frontend',
   description: 'Frontend development involves creating the user interface using technologies like HTML, CSS, JavaScript, and React to deliver an interactive and responsive user experience.',
   link: ''
 },
 {
-  icon: assets.backend_icon,
+  icon: assets.backend,
   title: 'Backend',
   description: 'Backend development focuses on server-side logic, APIs, authentication, and database communication using technologies like Node.js, Express, and other backend frameworks.',
   link: ''
 },
   {
-    icon: assets.database_icon,
+    icon: assets.dbms,
     title: 'Database',
     description: 'Database management involves storing, organizing, and retrieving data efficiently using systems like MongoDB, MySQL, and ensuring data security and integrity.',
     link: ''
   },
 {
-  icon: assets.git_icon,
-  title: 'Version Control System',
+  icon: assets.Github,
+  title: 'Github',
   description: 'Version control systems like Git help track code changes, collaborate with teams, and manage project history efficiently using platforms like GitHub and GitLab.',
   link: ''
 }

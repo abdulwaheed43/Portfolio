@@ -68,36 +68,6 @@ const Header = () => {
         transition={{ delay: 0.8 }}
       >
 
-        {/* <a
-          href="#contact"
-          className="px-8 py-3 border border-black rounded-full bg-black text-white flex items-center gap-2 hover:scale-105 transition"
-        >
-          Contact Me
-          <Image
-            src={assets.right_arrow_white}
-            alt="arrow"
-            width={16}
-            height={16}
-          />
-        </a> */}
-
-        {/* <a 
-  href="#contact"
-  className="px-8 py-3 border rounded-full 
-        dark:bg-white
-           
-             flex items-center gap-2 
-             hover:scale-105 transition"
->
-  Contact Me
-  <Image
-    src={assets.right_arrow_white}
-    alt="arrow"
-    width={16}
-    height={16}
-   
-  />
-</a> */}
 
 <a 
   href="#contact"
