@@ -1,6 +1,7 @@
 import { Outfit, Ovo } from "next/font/google";
 import "./globals.css";
 import { ThemeProvider } from "next-themes";
+import { Toaster } from "react-hot-toast";
 
 const outfit = Outfit({
   subsets: ["latin"],
@@ -18,6 +19,7 @@ export default function RootLayout({ children }) {
       <body className={`${outfit.className} ${ovo.className}`}>
         <ThemeProvider attribute="class" defaultTheme="light" enableSystem={false}>
           {children}
+          <Toaster position="top-center" />
         </ThemeProvider>
       </body>
     </html>

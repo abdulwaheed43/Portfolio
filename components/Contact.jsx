@@ -72,19 +72,7 @@ const Contact = () => {
           className="w-full p-3 border border-gray-300 rounded-lg outline-none focus:ring-2 focus:ring-black mb-6"
        name='message' ></textarea>
 
-        {/* Button */}
-        {/* <button
-          type="submit"
-          className="flex items-center justify-center gap-2 bg-black text-white px-8 py-3 rounded-full hover:bg-gray-800 transition duration-300 w-full sm:w-auto"
-        >
-          Submit Now
-          <Image
-            src={assets.right_arrow_white}
-            alt="arrow"
-            width={16}
-            height={16}
-          />
-        </button> */}
+       
 
         <button
   type="submit"
@@ -115,69 +103,3 @@ const Contact = () => {
 
 export default Contact;
 
-
-// import { assets } from '@/public/assets/assets';
-// import Image from 'next/image';
-
-// import React from 'react';
-
-// const Contact = () => {
-//   return (
-//     <div
-//       id='contact'
-//       className='w-full px-6 sm:px-10 lg:px-[12%] py-16 scroll-mt-20'
-//     >
-//       {/* Heading */}
-//       {/* <h4 className='text-center mb-4 text-lg font-Ovo text-gray-600'>
-//         Connect with me
-//       </h4> */}
-
-//       <h2 className='text-center text-4xl sm:text-5xl font-Ovo font-semibold'>
-//         Get in Touch
-//       </h2>
-
-//       {/* Description */}
-//       <p className='text-center max-w-2xl mx-auto mt-5 mb-12 font-Ovo text-gray-500'>
-//         I offer high-quality web development services using modern technologies like React, Next.js, and Node.js.
-      
-//       </p>
-
-//       {/* Form */}
-//       <form className='max-w-2xl mx-auto'>
-//         {/* Name & Email */}
-//         <div className='grid grid-cols-1 sm:grid-cols-2 gap-6 mb-6'>
-//           <input
-//             type='text'
-//             placeholder='Your Name'
-//             required
-//             className='w-full p-3 border border-gray-300 rounded-lg outline-none focus:ring-2 focus:ring-black'
-//           />
-//           <input
-//             type='email'
-//             placeholder='Your Email'
-//             required
-//             className='w-full p-3 border border-gray-300 rounded-lg outline-none focus:ring-2 focus:ring-black'
-//           />
-//         </div>
-
-//         {/* Message */}
-//         <textarea
-//           rows='6'
-//           placeholder='Your Message'
-//           required
-//           className='w-full p-3 border border-gray-300 rounded-lg outline-none focus:ring-2 focus:ring-black mb-6'
-//         ></textarea>
-
-//         {/* Button */}
-//         <button
-//           type='submit'
-//           className='bg-black text-white px-10 py-3 rounded-full hover:bg-gray-800 transition duration-300 w-full sm:w-auto'
-//         >
-//           Submit Now <Image src={assets.right_arrow_white} alt='' className='w-4'/>
-//         </button>
-//       </form>
-//     </div>
-//   );
-// };
-
-// export default Contact;
