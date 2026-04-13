@@ -1,4 +1,4 @@
-
+//old version responsiveness
 
 // "use client";
 
@@ -149,6 +149,9 @@
 // };
 
 // export default Navbar;
+
+
+//new version responsiveness
 
 "use client";
 
