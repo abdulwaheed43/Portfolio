@@ -1,4 +1,6 @@
 
+//old version reponsiveness
+
 import { serviceData } from '@/public/assets/assets';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import React from 'react';
@@ -84,6 +86,9 @@ const Services = () => {
 };
 
 export default Services;
+
+
+// new version responsiveness
 
 // "use client";
 

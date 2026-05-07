@@ -106,7 +106,7 @@ export const workData = [
     {
         title: 'full stack project',
         description: 'library system',
-        bgImage: workImg3,
+        bgImage: workImg4,
     },
     {
         title: 'Complete Authentication',
@@ -121,7 +121,7 @@ export const workData = [
     {
         title: 'My Portfolio',
         description: 'Website',
-        bgImage: workImg4,
+        bgImage: workImg3,
     },
 ]
 
